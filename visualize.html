@@ -1,0 +1,101 @@
+<h2>School</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    {% for row in School %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Class</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Class</th>
+    </tr>
+    {% for row in Class %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Class }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Assessment_Areas</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+    </tr>
+    {% for row in Assessment_Areas %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Student</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Fullname</th>
+    </tr>
+    {% for row in Student %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Fullname }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Answers</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Answers</th>
+    </tr>
+    {% for row in School %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Answers }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Awards</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Awards</th>
+    </tr>
+    {% for row in Awards %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Awards }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Subject</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Subject</th>
+        <th>Subject_Score</th>
+    </tr>
+    {% for row in Awards %}
+    <tr>
+        <td>{{ row.Id }}</td>
+        <td>{{ row.Subject }}</td>
+        <td>{{ row.Subject_Score }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
